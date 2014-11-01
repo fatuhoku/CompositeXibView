@@ -11,7 +11,9 @@ Pod::Spec.new do |s|
   s.author             = { "Hok Shun Poon" => "hok@hokshunpoon.me" }
   s.social_media_url   = "http://twitter.com/hokshunpoon"
   s.platform     = :ios
-  s.source       = { :git => "http://EXAMPLE/CompositeXibView.git", :tag => "0.0.1" }
+  s.ios.deployment_target = '6.0'
+  s.source       = { :git => "https://github.com/fatuhoku/CompositeXibView.git", :branch => "master" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+  s.dependency 'Masonry'
 end
