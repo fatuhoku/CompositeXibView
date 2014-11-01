@@ -4,10 +4,10 @@
 //
 
 #import "View+MASAdditions.h"
-#import "HSPXibLoadedView.h"
+#import "HSPCompositeXibView.h"
 
 
-@implementation HSPXibLoadedView
+@implementation HSPCompositeXibView
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
